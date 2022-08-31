@@ -6,6 +6,11 @@ h1{
     border-style: dotted;
     /*-------------------------- ▀ Dar diferente tamaño de borde a cada lado ------------------- */
     border-width: 10px 5px 3px 2px;
+    /*-------------------------- ▀ Color al borde ------------------- */
+    /* border-color: crimson; */
+
+    /*-------------------------- ▀ Color al borde diferentes ------------------- */
+    border-color: crimson hotpink gold lime;
 }
 
 .discontinuo{
@@ -19,7 +24,7 @@ h1{
     /*-------------------------- ▀ Ancho del borde ANCHO ------------------- */
     border-width: thick;
 
-
+    border-color: hsla(203, 39%, 44%, 0.61);
 }
 
 .solido{
