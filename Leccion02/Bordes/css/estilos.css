@@ -4,24 +4,46 @@ h1{
 
 .punteado{
     border-style: dotted;
+    /*-------------------------- ▀ Dar diferente tamaño de borde a cada lado ------------------- */
+    border-width: 10px 5px 3px 2px;
 }
 
 .discontinuo{
     border-style: dashed;
+    /*-------------------------- ▀ Ancho del borde DELGADO ------------------- */
+    /* border-width: thin; */
+
+    /*-------------------------- ▀ Ancho del borde MEDIANO ------------------- */
+    /* border-width: medium; */
+
+    /*-------------------------- ▀ Ancho del borde ANCHO ------------------- */
+    border-width: thick;
+
+
 }
 
 .solido{
     border: solid red;
+    /*-------------------------- ▀ Con 3 valores se aplica 10px en superior, 5px izquierda y derecha, 2px abajo ------------------- */
+    border-width: 10px 5px 2px ;
 }
 
 .doble{
-    border: 5px double;
+    border: 5px double blueviolet;
+    /*-------------------------- ▀ Con 2 valores se aplica 10px en superior e inferior y 5px izquierda y derecha ------------------- */
+    border-width: 10px 5px;
 }
 
 .surco{
     border: 10px groove;
     /* border-width: 10px; */
     /* border-style: groove; */
+
+    /*-------------------------- ▀ Aplicar a cada lado ------------------- */
+    /* border-top-width: ;
+    border-left-width: ;
+    border-bottom-width: ;
+    border-right-width: ; */
 }
 
 .cresta{
