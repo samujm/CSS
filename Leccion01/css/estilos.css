@@ -34,7 +34,13 @@
 
 /*--------------------------------------------------------------《 AGRUPAR SELECTORES 》------------------------------------------------------------------------------------*/
 /*-------------------------- ▀ Aplicar estilos a varios elementos al mismo tiempo -------------------*/
-h1, h2, p, div{
+/* h1, h2, p, div{
     color: crimson;
+    text-align: center;
+} */
+
+/*--------------------------------------------------------------《 SUBCLASE 》------------------------------------------------------------------------------------*/
+/*-------------------------- ▀ Se aplica el estilo solo a los p que tienen la clase centrar, solo si es p y tiene la clase -------------------*/
+p.centrar{
     text-align: center;
 }
