@@ -5,7 +5,17 @@ h1{
 
 
 div{
-    padding: 10px;
+    /*--------------------------------------------------------------《 PADDING 》------------------------------------------------------------------------------------*/
+    /*-------------------------- ▀ Se pueden poner diferentes valores -------------------*/
+    /*padding: 10px;*/
+    /*-------------------------- ▀ 10px superior e inferior, 5px derecho e izquierdo-------------------*/
+    /*padding: 10px 5px;*/
+    /*-------------------------- ▀ 10px superior, 5px derecho e izquierdo, 15px inferior-------------------*/
+    /*padding: 10px 5px 15px;*/
+    /*-------------------------- ▀ 10px superior, 15px derecho, 5px inferior, 3px izquierda-------------------*/
+    padding: 10px 15px 5px 3px;
+
+
     border: 15px solid #457b9d;
     margin: 20px;
     background-color: #f1faee;
