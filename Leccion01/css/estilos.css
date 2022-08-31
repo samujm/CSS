@@ -1,0 +1,8 @@
+/*--------------------------------------------------------------《 3 ARCHIVO EXTERNO CSS 》------------------------------------------------------------------------------------*/
+/*-------------------------- ▀ Definido en un archivo externo TERCERA PRIORIDAD -------------------*/
+h1 {
+    /*-------------------------- ▀ Important para que sea la prioridad 1 ese atributo -------------------*/
+    /* color: aqua !important; */
+    color: aqua;
+
+}

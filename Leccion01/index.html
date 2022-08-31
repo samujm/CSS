@@ -6,15 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introducción a CSS</title>
+    <!-------------------------- ▀ Si se definen despues de el style interno toma prioridad ------------------->
+    <link rel="stylesheet" href="/Leccion01/css/estilos.css" />
+    <!--------------------------------------------------------------《 2 INTERNAL CSS 》------------------------------------------------------------------------------------>
+    <!-------------------------- ▀ Definido a nivel de la página web SEDUNDA PRIORIDAD ------------------->
+    <style>
+        h1 {
+            color: red;
+            text-align: right;
+        }
+    </style>
 </head>
 
 <body>
-    <!--------------------------------------------------------------《 INLINE CSS 》------------------------------------------------------------------------------------>
-    <!-------------------------- ▀ Colocar css en el html  ------------------->
+    <!--------------------------------------------------------------《 1 INLINE CSS 》------------------------------------------------------------------------------------>
+    <!-------------------------- ▀ Colocar css en el html  PRIMERA PRIORIDAD ------------------->
     <!--------------------------------------------------------------《 ATRIBUTO O PROPIEDAD 》------------------------------------------------------------------------------------>
     <!-------------------------- ▀ Caracteristica que podemos cambiar de un elemento HTML  ------------------->
     <!----- ▀ atributo:valor   ->    color:blue  ------------------->
-    <h1 style="color:blue; text-align: center; font-size: 100px;">Universidad CSS</h1>
+    <!-- <h1 style="color:blue; text-align: center; font-size: 100px;">Universidad CSS</h1> -->
+
+    <h1>Universidad CSS</h1>
+
 
 </body>
 
