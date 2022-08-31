@@ -14,4 +14,7 @@ div{
     /*-------------------------- ▀ Esta entre el borde y el margen, no se toma en cuenta para la suma, se puede modificar su color -------------------*/
     /*-------------------------- ▀ Se puede utilizar los tipos de borde, se pone encima del margen si se tiene, si no se encuentra fuera del elemento, se puede superponer arriba de otros elementos html -------------------*/
     outline: 10px solid #a8dadc;
+    /*--------------------------------------------------------------《 OUTLINE-OFFSET》------------------------------------------------------------------------------------*/
+    /*-------------------------- ▀ Separación entre el borde y este elemento outline, solo se puede aplicar un valor, no sirve poner 10px 5px 3px 2px -------------------*/
+    outline-offset: 10px;
 }
