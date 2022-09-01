@@ -1,0 +1,67 @@
+/* *{
+    background-color: dimgray;
+} */
+
+h1 {
+    text-align: center;
+    color: #e63946;
+}
+
+.caja {
+    padding: 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 10px;
+    float: left;
+}
+
+.rojo {
+    background-color: crimson;
+}
+
+.rosa {
+    background-color: deeppink;
+}
+
+.rgb{
+    /*--------------------------------------------------------------《 RGB 》------------------------------------------------------------------------------------*/
+    /*-------------------------- ▀ De 0 a 255, con 0 es ausencia de color y 255 es todo el color -------------------*/
+    background-color: rgb(131, 56, 236);
+}
+
+.rgba{
+    /*--------------------------------------------------------------《 RGBA 》------------------------------------------------------------------------------------*/
+    /*-------------------------- ▀ 1 ninguna transparencia, 0 la mayor transparencia -------------------*/
+    background-color: rgba(131, 56, 236, 0.5);
+}
+
+
+.hexadecimal{
+    /*--------------------------------------------------------------《 HEXADECIMAL 》------------------------------------------------------------------------------------*/
+    /*-------------------------- ▀ Se compone de 6 digitos por pares -------------------*/
+    background-color: #0091ad;
+    /*-------------------------- ▀ Si se repite la letra se puede simplificar con una -------------------*/
+    /* background-color: #fa2; */
+}
+
+.hexa_transparencia{
+    /*--------------------------------------------------------------《 HEXADECIMAL CON TRANSPARENCIA》------------------------------------------------------------------------------------*/
+    background-color: #0090AD86;
+}
+
+.hsl{
+    /*--------------------------------------------------------------《 HSL 》------------------------------------------------------------------------------------*/
+    /*-------------------------- ▀ HUE: Rueda de colores, matiz de 0 a 360  -------------------*/
+    /*-------------------------- ▀ SATURATION: Saturar el color al máximo 0% color seleccionado sin saturar, al 100% completamente saturado  -------------------*/
+    /*-------------------------- ▀ LIGHTNESS: Iluminación, 0% de iluminación, 100% completamente iluminado  -------------------*/
+    background-color: hsl(195, 100%, 50%);
+}
+
+.hsla{
+    /*--------------------------------------------------------------《 HSLA 》------------------------------------------------------------------------------------*/
+    /*-------------------------- ▀ A: Canal alfa, transparencia  -------------------*/
+    background-color: hsla(195, 100%, 50%,0.5);
+}
