@@ -9,7 +9,7 @@ h1{
 }
 
 
-div{
+/* div{ */
     /*--------------------------------------------------------------《 PADDING 》------------------------------------------------------------------------------------*/
     /*-------------------------- ▀ Se pueden poner diferentes valores -------------------*/
     /*padding: 10px;*/
@@ -18,24 +18,26 @@ div{
     /*-------------------------- ▀ 10px superior, 5px derecho e izquierdo, 15px inferior-------------------*/
     /*padding: 10px 5px 15px;*/
     /*-------------------------- ▀ 10px superior, 15px derecho, 5px inferior, 3px izquierda-------------------*/
-    padding: 10px 15px 5px 3px;
+    /* padding: 10px 15px 5px 3px; */
 
-    border: 1px solid #457b9d;
+    /* border: 1px solid #457b9d; */
 
     /*--------------------------------------------------------------《 CENTRAR ELEMENTO 》------------------------------------------------------------------------------------*/
     /*-------------------------- ▀ Centar el elemento con un margin, funciona con elementos inline -------------------*/ 
     /* margin: auto; */
     /* margin: 0 auto; */
-    margin-left: 100px;
+
+    /* margin-left: 100px; */
+    /* margin: 20px; */
 
     
     
-    background-color: #f1faee;
+    /* background-color: #f1faee; */
     /* width: 300px; */
 
     /*--------------------------------------------------------------《 MAX-WIDTH 》------------------------------------------------------------------------------------*/
     /*-------------------------- ▀ No crecerá máximo de 300px pero se ajusta cuando se achica la pantalla -------------------*/ 
-    max-width: 300px;
+    /* max-width: 300px; */
     /* max-height: 100%; */
 
     /*--------------------------------------------------------------《 OUTLINE 》------------------------------------------------------------------------------------*/
@@ -47,11 +49,33 @@ div{
     /*outline-offset: 10px;*/
     /*--------------------------------------------------------------《 BOX-SIZING 》------------------------------------------------------------------------------------*/
     /*-------------------------- ▀ Con esta propiedad se establece un ancho fijo del contenido con el with y suma el padding y el borde en el widt, todo va a sumar lo que mida el width-------------------*/
+    /* box-sizing: border-box; */
+/* } */
+
+/* p.interno{ */
+    /*--------------------------------------------------------------《 INHERIT 》------------------------------------------------------------------------------------*/
+    /*-------------------------- ▀ Hereda del elemento padre el margin -------------------*/
+    /* margin-left: inherit;
+} */
+
+
+/*--------------------------------------------------------------《 MARGIN COLLAPSE 》------------------------------------------------------------------------------------*/
+/*-------------------------- ▀ Fusión de margenes superiores o inferiores -------------------*/
+/*-------------------------- ▀ Si el margen del elemento superior es mayor que el inferior queda el margen más grande -------------------*/
+.caja1{
+    padding: 10px 15px 5px 3px;
+    border: 1px solid #457b9d;
+    margin: 30px;
+    background-color: #f1faee;
+    max-width: 300px;
     box-sizing: border-box;
 }
 
-p.interno{
-    /*--------------------------------------------------------------《 INHERIT 》------------------------------------------------------------------------------------*/
-    /*-------------------------- ▀ Hereda del elemento padre el margin -------------------*/
-    margin-left: inherit;
+.caja2{
+    padding: 10px 15px 5px 3px;
+    border: 1px solid #457b9d;
+    margin: 20px;
+    background-color: #f1faee;
+    max-width: 300px;
+    box-sizing: border-box;
 }
