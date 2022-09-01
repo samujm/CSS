@@ -1,0 +1,27 @@
+body {
+    color: cornsilk;
+
+    /*-------------------------- ▀ Colocar un color similar por si la imagen no carga -------------------*/
+    background-color: dodgerblue;
+
+    /*--------------------------------------------------------------《 IMAGEN DE FONDO - BACKGROUND 》------------------------------------------------------------------------------------*/
+    background-image: url('/Leccion05/img/fondo.png');
+    /*-------------------------- ▀  no-repeat: No repetir la imagen-------------------*/
+    /*-------------------------- ▀  repeat-x: Repetir en el eje x -------------------*/
+    /*-------------------------- ▀  repeat-y: Repetir en el eje y -------------------*/
+    background-repeat: no-repeat;
+    /*-------------------------- ▀  Para posicionar la imagen en algun lugar en especifico, aqui puse dos opciones-------------------*/
+    background-position: right top;
+    /*-------------------------- ▀  Para que la imagen se mantenga fija al bajar el scroll, por default es scroll-------------------*/
+    background-attachment: fixed;
+
+    /*-------------------------- ▀  Simplificar todo lo anterior MENOS ATTACHMENT-------------------*/
+    background: dodgerblue url(/Leccion05/img/fondo.png) no-repeat right top;
+}
+
+h1 {
+    /*--------------------------------------------------------------《 FONDO A OTRO ELEMENTO 》------------------------------------------------------------------------------------*/
+    text-align: center;
+    background-color: dodgerblue;
+    /* height: 1000px; */
+}
