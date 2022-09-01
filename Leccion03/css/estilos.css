@@ -25,7 +25,9 @@ div{
     /*--------------------------------------------------------------《 CENTRAR ELEMENTO 》------------------------------------------------------------------------------------*/
     /*-------------------------- ▀ Centar el elemento con un margin, funciona con elementos inline -------------------*/ 
     /* margin: auto; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-left: 100px;
+
     
     
     background-color: #f1faee;
@@ -46,4 +48,10 @@ div{
     /*--------------------------------------------------------------《 BOX-SIZING 》------------------------------------------------------------------------------------*/
     /*-------------------------- ▀ Con esta propiedad se establece un ancho fijo del contenido con el with y suma el padding y el borde en el widt, todo va a sumar lo que mida el width-------------------*/
     box-sizing: border-box;
+}
+
+p.interno{
+    /*--------------------------------------------------------------《 INHERIT 》------------------------------------------------------------------------------------*/
+    /*-------------------------- ▀ Hereda del elemento padre el margin -------------------*/
+    margin-left: inherit;
 }
