@@ -26,10 +26,18 @@ h1 {
 
 .fuente_times {
     font-family: 'Times New Roman', Times, serif;
+    /*--------------------------------------------------------------《 ESTILOS DE FUENTES 》------------------------------------------------------------------------------------*/
+    font-style: normal;
+    /*--------------------------------------------------------------《 ANCHO DE LA FUENTE 》------------------------------------------------------------------------------------*/
+    font-weight: normal;
+    /*--------------------------------------------------------------《 TODO EN MAYUSCULAR PERO LAS PRIMERAS LETRAS MAS ALTAS 》------------------------------------------------------------------------------------*/
+    font-variant: small-caps;
 }
 
 .fuente_georgia {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
 }
 
 
@@ -43,29 +51,32 @@ h1 {
 
 .fuente_arial {
     font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
 }
 
 .fuente_verdana {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
 }
 
 /*--------------------------------------------------------------《 MONOSPACE 》------------------------------------------------------------------------------------*/
 /*-------------------------- ▀  Simulan a una escitura de maquina de escribir -------------------*/
-.caja.monospace{
+.caja.monospace {
     background-color: #f15bb4;
 }
 
-.fuente_courier{
+.fuente_courier {
     font-family: 'Courier New', Courier, monospace;
 }
 
 
 /*--------------------------------------------------------------《 CURSIVE 》------------------------------------------------------------------------------------*/
 /*-------------------------- ▀  Simulan a escritura en cursiva -------------------*/
-.caja.cursive{
+.caja.cursive {
     background-color: #ff8500;
 }
 
-.fuente_lucida{
+.fuente_lucida {
     font-family: 'Lucida Handwriting';
 }
