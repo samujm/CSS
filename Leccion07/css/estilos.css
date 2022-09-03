@@ -31,8 +31,7 @@ h1 {
 }
 
 .fuente_times {
-    /* font-family: 'Times New Roman', Times, serif; */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     /*--------------------------------------------------------------《 ESTILOS DE FUENTES 》------------------------------------------------------------------------------------*/
     font-style: normal;
     /*--------------------------------------------------------------《 ANCHO DE LA FUENTE 》------------------------------------------------------------------------------------*/
@@ -42,6 +41,19 @@ h1 {
     /*--------------------------------------------------------------《 TAMAÑO DE FUENTE 》------------------------------------------------------------------------------------*/
     font-size: 20px;
 
+}
+
+.fuente_roboto{
+    /*
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-size: 20px;
+    */
+    /*--------------------------------------------------------------《 ATRIBUTOS DE FONT JUNTOS, LOS DE * SON REQUERIDOS 》------------------------------------------------------------------------------------*/
+    /*font: font-style font-variant font-weight *font-size/line-height *font-family*/
+    font: italic small-caps bolder 20px Roboto, sans-serif;
 }
 
 .fuente_georgia {
