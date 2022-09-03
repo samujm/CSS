@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Roboto&display=swap');
+
 h1 {
     color: #ef476f;
     text-align: center;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px #ced4da;
+    font-family: 'Sofia', cursive;
 }
 
 .caja {
@@ -25,7 +28,8 @@ h1 {
 }
 
 .fuente_times {
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Roboto', sans-serif;
     /*--------------------------------------------------------------《 ESTILOS DE FUENTES 》------------------------------------------------------------------------------------*/
     font-style: normal;
     /*--------------------------------------------------------------《 ANCHO DE LA FUENTE 》------------------------------------------------------------------------------------*/
