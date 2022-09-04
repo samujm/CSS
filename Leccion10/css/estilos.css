@@ -2,7 +2,7 @@ h1 {
     text-align: center;
     color: crimson;
 }
-
+/* 
 div.relativo{
     width: 300px;
     height: 200px;
@@ -10,12 +10,12 @@ div.relativo{
     top: 10px;
     left: 100px;
     border: 3px solid cornflowerblue;
-}
+} */
 
 /*--------------------------------------------------------------《 CENTRAR DIV 》-----------------------------------------------------------------------------------*/
 /*-------------------------- ▀ Poner valor máximo de width en porcentaje ------------------*/
 /*-------------------------- ▀ Colocar márgin auto ------------------*/
-div.absoluto {
+div{
     /*--------------------------------------------------------------《 TIPOS DE POSICIONAMIENTO 》-----------------------------------------------------------------------------------*/
 
     /*-----------------------------------《 STATIC 》-----------------------------------------------------------------------------------*/
@@ -44,7 +44,16 @@ div.absoluto {
     /*------------------------ ▀ Se queda en la posición que le toca ------------------*/
     /*------------------------ ▀ FUNCIONA SOLO SI EL PADRE NOOOOO ESSSSS STATIC ya que en static no funciona top, left...------------------*/
     /*------------------------ ▀ Top, left, right,bottom SI SIRVEN CON ABSOLUTE ------------------*/
-    position: absolute;
+    /* position: absolute; */
+
+    /*-----------------------------------《 STICKY O PEGAJOSO 》-----------------------------------------------------------------------------------*/
+    /*------------------------ ▀ Se debe utilizar Top, left, right o bottom para que funcione ------------------*/
+    /*------------------------ ▀ Se coloca de manera relativa pero en cuanto sale de pantalla se coloca de manera fija, al regresar vuelve a tomar su espacio ------------------*/
+    /*------------------------ ▀ position: -webkit-sticky; para que en zafari funcione de manera correcta sticky ------------------*/
+    /*------------------------ ▀ en explorer no funciona ------------------*/
+    position: sticky;
+    position: -webkit-sticky; /*para que en zafari funcione de manera correcta sticky*/
+    top: 0;
     bottom: 20px;
     right: 10px;
     /* max-width: 50%; */
