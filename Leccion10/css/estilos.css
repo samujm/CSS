@@ -3,10 +3,19 @@ h1 {
     color: crimson;
 }
 
+div.relativo{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    border: 3px solid cornflowerblue;
+}
+
 /*--------------------------------------------------------------《 CENTRAR DIV 》-----------------------------------------------------------------------------------*/
 /*-------------------------- ▀ Poner valor máximo de width en porcentaje ------------------*/
 /*-------------------------- ▀ Colocar márgin auto ------------------*/
-div {
+div.absoluto {
     /*--------------------------------------------------------------《 TIPOS DE POSICIONAMIENTO 》-----------------------------------------------------------------------------------*/
 
     /*-----------------------------------《 STATIC 》-----------------------------------------------------------------------------------*/
@@ -27,9 +36,17 @@ div {
     /*------------------------ ▀ NO se respeta su espacio ------------------*/
     /*------------------------ ▀ Se muestra de manera fija ------------------*/
     /*------------------------ ▀ Top, left, right,bottom SI SIRVEN CON FIXED ------------------*/
-    position: fixed;
-    top: 0;
-    right: 0;
+    /* position: fixed; */
+
+    /*-----------------------------------《 ABSOLUTE 》-----------------------------------------------------------------------------------*/
+    /*------------------------ ▀ Se utiliza cuando se está trabajando dentro de otro elemento de tipo DIV ------------------*/
+    /*------------------------ ▀ Se coloca de manera absoluta tomando en cuenta el elemento que lo contiene ------------------*/
+    /*------------------------ ▀ Se queda en la posición que le toca ------------------*/
+    /*------------------------ ▀ FUNCIONA SOLO SI EL PADRE NOOOOO ESSSSS STATIC ya que en static no funciona top, left...------------------*/
+    /*------------------------ ▀ Top, left, right,bottom SI SIRVEN CON ABSOLUTE ------------------*/
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
     /* max-width: 50%; */
     border: 3px solid firebrick;
     /* margin: auto; */
