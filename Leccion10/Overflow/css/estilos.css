@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+
+div.contenedor {
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 50px;
+    margin: auto;
+    /* --------------------------------------------------------------《 OVERFLOW 》------------------------------------------------------------------------------------*/
+    /* -------------------------- ▀ Cuando el contenido se sale del contenedor que hemos especificado con un alto-------------------*/
+    /* -------------------------- ▀ Por default es overflow:visible; -------------------*/
+    /* overflow: visible; */
+    /* -------------------------- ▀ overflow: hidden; Se recorta lo que no será visible -------------------*/
+    /* overflow: hidden;   */
+    /* -------------------------- ▀ overflow: scroll; Se recorta lo que no será visible pero se agregan los dos scroll para verlo -------------------*/
+    /* overflow: scroll; */
+    /* -------------------------- ▀ overflow: auto; Se recorta lo que no será visible pero se agrega el scroll que se necesite -------------------*/
+    overflow: auto;
+    /* -------------------------- ▀ overflow-x y overflow-y las mismas opciones que las de arriba pero para ese eje en especifico -------------------*/
+    /* overflow-x: auto;
+    overflow-y: auto; */
+
+}
