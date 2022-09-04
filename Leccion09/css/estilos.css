@@ -1,0 +1,32 @@
+h1, div, p{
+    border: 3px solid blueviolet;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 10px;
+    /*-------------------------- ▀ Cambiar de en block a linea -------------------*/
+    display: block;
+}
+
+h1{
+    /*-------------------------- ▀ Oculta el elemento sin dejas su espacio -------------------*/
+    display: none;
+}
+
+p{
+    /*-------------------------- ▀ Oculta el elemento dejando su espacio -------------------*/
+    visibility: hidden;
+}
+
+span{
+    /*-------------------------- ▀ Cambiar de en linea a block -------------------*/
+    display: inline;
+    border: 1px solid blue;
+}
+
+a{
+    display: block;
+}
+
+li{
+    display: inline;
+}
