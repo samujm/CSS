@@ -20,10 +20,17 @@ div {
     /*------------------------ ▀ Sigue reservando el espacio que tiene originalmente ------------------*/
     /*------------------------ ▀ Top, left, right,bottom SI SIRVEN CON RELATIVE ------------------*/
     /*------------------------ ▀ Los otros elementos se agregan de forma natural respetando el espacio del elemento relative ------------------*/
-    position: relative  ;
-    top: 100px;
-    left: 50px;
-    max-width: 50%;
+    /* position: relative  ; */
+
+    /*-----------------------------------《 FIXED O AJUSTADA 》-----------------------------------------------------------------------------------*/
+    /*------------------------ ▀ Se coloca el elemento de forma relativa al viewport disponoble de la página ------------------*/
+    /*------------------------ ▀ NO se respeta su espacio ------------------*/
+    /*------------------------ ▀ Se muestra de manera fija ------------------*/
+    /*------------------------ ▀ Top, left, right,bottom SI SIRVEN CON FIXED ------------------*/
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* max-width: 50%; */
     border: 3px solid firebrick;
-    margin: auto;
+    /* margin: auto; */
 }
