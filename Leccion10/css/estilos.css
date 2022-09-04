@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+/*--------------------------------------------------------------《 CENTRAR DIV 》-----------------------------------------------------------------------------------*/
+/*-------------------------- ▀ Poner valor máximo de width en porcentaje ------------------*/
+/*-------------------------- ▀ Colocar márgin auto ------------------*/
+div{
+    max-width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+}
