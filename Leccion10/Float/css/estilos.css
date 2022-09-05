@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+
+div.contenedor {
+    width: 30%;
+    height: 50px;
+    overflow: auto;
+    /* float: left; */
+}
+
+div.contenedor.flotado {
+    float: left;
+}
+
+div.contenedor.flotado.contenedor1{
+    border: 3px dashed greenyellow;
+}
+
+div.contenedor.flotado.contenedor2{
+    border: 3px dashed cornflowerblue;
+    float: right;
+}
+
+div.contenedor.contenedor3{
+    /* ----------------------------------------------- Limpiar o romper el orden de float------------------------------------------------------- */
+    clear: left;
+    clear: right;
+    clear: both;
+    border: 3px dashed darkorange;
+    margin: auto;
+}
