@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    color: #457b9d;
+}
+
+/* <!--------------------------------------------------------------《 DISPLAY INLINE 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ no se pueden modificar altos ni anchos ni agregar padding y margin (ELEMENTOS EN LINEA)-------------------> */
+
+/* <!--------------------------------------------------------------《 DISPLAY BLOCK 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ los elementos de bloque respetan los anchos y altos y los márgenes verticales -------------------> */
+
+/* <!--------------------------------------------------------------《 DISPLAY INLINE-BLOCK 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Puede asignar un margen y un padding, altos y anchos, se comporta como un elemento en linea pero con las propiedades del de bloque -------------------> */
+
+div.contenedor {
+    width: 80%;
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    border: 3px dashed #a8dadc;
+}
+
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    background-color: #a8dadc;
+    border: 1px solid#457b9d;
+    height: 50px;
+    padding: 5px;
+    display: inline-block;
+}
