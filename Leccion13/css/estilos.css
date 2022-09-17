@@ -1,0 +1,87 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #e63046;
+}
+
+div.contenedor{
+/* <!--------------------------------------------------------------《 FLEXBOX 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Cajas flexibles -------------------> */
+/* <!-------------------------- ▀ Se despliegan en una fila (flex-direction: row) -------------------> */
+/* <!-------------------------- ▀ Empiezan desde el margen inicial -------------------> */
+/* <!-------------------------- ▀ No se ajustan en la dimensión principal pero se contraen -------------------> */
+    display: flex;
+    background-color: #560bad;
+    height: 300px;
+
+
+/* <!--------------------------------------------------------------《 FLEXBOX (FLEX-DIRECTION) 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Se acomodan de arriba hacia abajo ocupando todo el tamaño de su contenedor -------------------> */
+    /* flex-direction: column; */
+/* <!-------------------------- ▀ Se acomodan de manera inversa 3,2,1 -------------------> */
+    /* flex-direction: column-reverse; */
+/* <!-------------------------- ▀ Valor por default row -------------------> */
+    /* flex-direction: row; */
+/* <!-------------------------- ▀ Se cargan hacia la derecha y se invierten los elementos 3,2,1 -------------------> */
+    /* flex-direction: row-reverse; */
+
+
+/* <!--------------------------------------------------------------《 FLEXBOX (FLEX-WRAP) 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Los elementos que no caben no pasan al siguiente renglon y no se envuelven por el contenedor padre -------------------> */
+/* <!-------------------------- ▀ nowrap es por default -------------------> */
+    /* flex-wrap: nowrap; */
+/* <!-------------------------- ▀ Envuelve los elementos y pasan a la parte inferior -------------------> */
+    /* flex-wrap: wrap; */
+
+/* <!--------------------------------------------------------------《 FLEXBOX (FLEX-FLOW) 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Une flex-direction y flex-wrap -------------------> */
+    flex-flow: row wrap;
+
+
+/* <!--------------------------------------------------------------《 FLEXBOX (JUSTIFY-CONTENT) 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Cargar los elementos de lado izquierdo, es por default -------------------> */
+/* justify-content: flex-start; */
+/* <!-------------------------- ▀ Centra los elementos dentro del div -------------------> */
+    justify-content: center;
+/* <!-------------------------- ▀ Cargar los elementos de lado derecho -------------------> */
+    /* justify-content: flex-end; */
+/* <!-------------------------- ▀ Se cargan hacia la derecha e izquierda y se ajusta enmedio -------------------> */
+    /* justify-content: space-between; */
+/* <!-------------------------- ▀ Se agrega espacio de lado izquiero y derecho y se ajustan -------------------> */
+    /* justify-content: space-around; */
+/* <!-------------------------- ▀ Mismo espacio entre los elementos -------------------> */
+    /* justify-content: space-evenly; */
+
+
+/* <!--------------------------------------------------------------《 FLEXBOX (ALIGN-ITEMS) 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Se alargan los elementos en todo el div, valor por default -------------------> */
+    align-items: stretch;
+/* <!-------------------------- ▀ Se alinean hacia la parte superior -------------------> */
+    /* align-items: flex-start; */
+/* <!-------------------------- ▀ Se alinean hacia la parte de enmedio -------------------> */
+    /* align-items: center; */
+/* <!-------------------------- ▀ Se crea una linea para ajustar los elementos, pasa por enmedio del texto y se alinean -------------------> */
+    /* align-items: baseline; */
+
+
+/* <!--------------------------------------------------------------《 FLEXBOX (ALIGN-CONTENT) 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Espacio entre las lineas que tenemos en el flexbox, Como se acomodan los elementos pero de manera vertical -------------------> */
+/* <!-------------------------- ▀ Se carga hacia la parte superior -------------------> */
+    /* align-content: flex-start; */
+/* <!-------------------------- ▀ Se carga hacia la parte inferior -------------------> */
+    /* align-content: flex-end; */
+/* <!-------------------------- ▀ Se centran los elementos -------------------> */
+    /* align-content: center;     */
+/* <!-------------------------- ▀ Agregar un espacio en cada uno de los elementos pero de manera vertical -------------------> */
+    /* align-content: space-around;     */
+/* <!-------------------------- ▀ Se cargan los elementos a los extemos y deja un espacio entre los elementos -------------------> */
+    /* align-content: space-between; */
+}
+
+div.contenedor > p{
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
