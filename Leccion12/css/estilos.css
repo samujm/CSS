@@ -1,0 +1,42 @@
+html{
+    height: auto;
+    min-height: 100%;
+}
+body{
+    color: #F1FAEE;
+
+/* <!--------------------------------------------------------------《 LINEAR-GRADIENT 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Aplicando dos colores -------------------> */
+/* <!-------------------------- ▀ por default se aplica desde la parte superios hacia la parte inferior -------------------> */
+    /* background: linear-gradient(#f72585, #3a0ca3); */
+
+/* <!--------------------------------------------------------------《 LINEAR-GRADIENT (HACIA LA DERECHA) 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Cambiamos la dirección de generación -------------------> */
+    /* background: linear-gradient(to right, #f72585, #3a0ca3); */
+
+/* <!--------------------------------------------------------------《 LINEAR-GRADIENT (MÁS COLORES) 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Agregar más de dos colores -------------------> */
+    /* background: linear-gradient(#24404d,#6dbff1, black); */
+
+/* <!--------------------------------------------------------------《 LINEAR-GRADIENT (ABAJO A LA DERECHA, DIAGONAL) 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ de abajo hacia la derecha -------------------> */
+    /* background: linear-gradient(to bottom right, #f72585, #3a0ca3); */
+
+/* <!--------------------------------------------------------------《 LINEAR-GRADIENT (CON UN ANGULO) 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Se proporciona el angulo para la dirección del gradiante -------------------> */
+    /* background: linear-gradient(145deg, #f72585, #3a0ca3); */
+
+}
+
+h1{
+    text-align: center;
+}
+
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+}
