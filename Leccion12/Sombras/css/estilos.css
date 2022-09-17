@@ -4,7 +4,8 @@ h1{
     /* <!-------------------------- ▀ Primer valor: ejeX -------------------> */
     /* <!-------------------------- ▀ Segundo valor: ejeY -------------------> */
     /* <!-------------------------- ▀ Tercer valor: blur (difuminado), la sombra no sea tan dura y permite leer el texto -------------------> */
-    text-shadow: 2px 2px 5px grey;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #e63946;
 }
 
 div.contenedor{
@@ -21,4 +22,18 @@ div.contenedor{
     /* <!-------------------------- ▀ Tercer valor: blur (difuminado), la sombra no sea tan dura, se puede agregar 0 -------------------> */
     /* <!-------------------------- ▀ Cuarto valor: Spread (propagar), crecer más la sombra -------------------> */
     box-shadow: 2px 2px 5px 2px grey;
+
+    color: #457b9d;
+    border-radius: 15px;   
+}
+
+div.cabecero{
+    background-color: #4cc9f0;
+}
+
+div.cuerpo{
+    padding-top: 2px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(177, 177, 177);
 }
