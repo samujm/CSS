@@ -24,3 +24,9 @@ div.contenedor.descendiente p{
 div.contenedor.hijo > p{
     background-color: #ffc6ff;
 }
+
+/* <!--------------------------------------------------------------《 SELECTORES ADYACENTE 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Selecciona UNICAMENTE el elemento que esten directamente despues del elemento configurado -------------------> */
+div.contenedor.adyacente + p{
+    background-color: #caffbf;
+}
