@@ -24,5 +24,11 @@ div.contenedor p::selection{
 /* <!-------------------------- ▀ Se aplica a la primera linea, es dinámico -------------------> */
 div.contenedor p::first-line{
     font-variant: small-caps;
+    color: red;
 }
 
+/* <!--------------------------------------------------------------《 FIRST-LETTER 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Primera letra de cada párrafo -------------------> */
+div.contenedor p::first-letter{
+    font-size: 1.5em;
+}
