@@ -20,3 +20,9 @@ div.contenedor p::selection{
     color: red;
 }
 
+/* <!--------------------------------------------------------------《 FIRST-LINE 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Se aplica a la primera linea, es dinámico -------------------> */
+div.contenedor p::first-line{
+    font-variant: small-caps;
+}
+
