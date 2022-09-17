@@ -18,3 +18,9 @@ div.contenedor{
 div.contenedor.descendiente p{
     background-color: #fdffb6;
 }
+
+/* <!--------------------------------------------------------------《 SELECTORES HIJOS (CHILD) 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Solamente selecciona a los hijos directos -------------------> */
+div.contenedor.hijo > p{
+    background-color: #ffc6ff;
+}
