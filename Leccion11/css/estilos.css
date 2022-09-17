@@ -30,3 +30,9 @@ div.contenedor.hijo > p{
 div.contenedor.adyacente + p{
     background-color: #caffbf;
 }
+
+/* <!--------------------------------------------------------------《 SELECTOR HERMANO 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Todos los parrafos que encuentre despues les va a aplicar la propiedad, se encuentran al mismo nivel, son hermanos ------------------->  */
+div.contenedor.hermano ~ p{
+    background-color: #9bf6ff;
+}
