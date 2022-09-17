@@ -26,6 +26,9 @@ body{
 /* <!-------------------------- ▀ Se proporciona el angulo para la dirección del gradiante -------------------> */
     /* background: linear-gradient(145deg, #f72585, #3a0ca3); */
 
+/* <!--------------------------------------------------------------《 RADIAL-GRADIENT 》------------------------------------------------------------------------------------> */
+/* <!-------------------------- ▀ Del centro a la parte exterior -------------------> */
+    background: radial-gradient(circle, #0d47a1, #64b4f5dc);
 }
 
 h1{
